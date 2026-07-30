@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sk">
+  
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kategória: Prekvapenie </title>
+  </head>
+   
+  <body>
+<ul class="breadcrumb">
+  <li><a href="index.html"><img src="domisek.svg";" width="60" height="60"></a></li>
+  <li>Kategória: Prekvapenie</li>
+</ul>
+    <h1 style="padding-left: 60px;"> Kategória: Prekvapenie </h1>
+    <p style="padding-left: 60px;"> Máš niečo, o čom si myslíš, že by sa nám mohlo hodiť do príručky? Sem s tým! </p>
+    
+    <form action="https://api.web3forms.com/submit" method="POST" target="_self">
+        <input type="hidden" name="access_key" value="a6156318-074c-4ca8-a8d2-4327d77e588d">
+      <div style="padding-left: 60px; padding-bottom: 60px;" >
+    
+        <div class="form-col">
+         <label class="submission-label" for="nameSurprise">Meno:</label>
+        <input class="input-text" type="text" name="name" id="nameSurprise" placeholder='nechaj prázdne pre anonyný príspevok' maxlength=100>
+        </div>
+
+      <input type="hidden" name="submissionType" value="surprise">
+      
+      <div class="form-col">
+        <label class="submission-label" for="titleSurprise">Názov príspevku:*</label>
+        <input class="input-text" type="text" name="title" id="titleSurprise" placeholder='sem napíš názov' required maxlength=100>
+        </div>
+
+      <div class="form-col">
+          <label class="submission-label" for="subSurprise">Príspevok:*</label>
+          <br><br>
+          <textarea class="input-text-area" name="submission" id="subSurprise" rows="10" placeholder='sem napíš návod'></textarea>
+        </div>
+
+
+        <h2> Chcem si predobjednať príručku! (dobrovoľné) </h2>
+  <p> Daj nám email a náš administratívny pracovník Emil Našuchorený ti pošle digitálnu verziu Šibalskej príručky Huncútskej husy (do každého vrecka) hneď, ako bude hotová.</p>
+     
+        
+      <div class="form-col">
+         <label class="submission-label" for="mailSurprise">Email:</label>
+        <input class="input-text" type="email" name="email" id="mailSurprise" placeholder='tvoj email tuto' maxlength=100>
+        </div>
+
+        <br>
+
+        <label class="container" for="surprisesubYes"> <b>IBA PRÍRUČKA:</b> Súhlasím so <a href="gdpr.html">spracovaním osobných údajov</a> a chcem byť informovaná/ý/é o vydaní Príručky. 
+        <input type="checkbox" name="subYes" id="surprisesubYes" value="Agree">
+          <span class="checkmark"></span>
+          <br>
+        </label>
+        
+        <label class="container" for="surprisemktYes"> <b>PLUS MARKETING:</b> Súhlasím so spracovaním osobných údajov, chcem byť informovaná/ý/é o vydaní Príručky a o budúcich aktivitách knižnice. 
+        <input type="checkbox" name="marketingYes" id="surprisemktYes" value="Agree">
+          <span class="checkmark"></span>
+          <br></label>
+        <br><br>
+
+        <input type="submit" id="submitSurprise" value="Šup ho tam!">
+        <input type="hidden" name="redirect" value="https://yourwebsite.com/thanks.html">
+    </div>
+
+</form> 
+
+<footer style="padding:40px;">
+  <p style="text-align:center"> Vytvorené Blejmínou Blelejovou, VB. pre Knižnicu Huncútska husa, © 2026
+  </p>
+    <img src="bbvb.png" alt="Logo autorstva, malý goblin obklopený duchmi" width="150" height="150" style="  display: block;
+  margin: auto;">
+</footer>
+    
+  </body>
+</html>

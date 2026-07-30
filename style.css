@@ -1,0 +1,329 @@
+:root {
+  --blue: #1100FF;
+  --orange: #EE5622;
+}
+
+.labrada-husafont {
+  font-family: "Labrada", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+ul.breadcrumb {
+  padding-left: 60px;
+  padding-top: 60px;
+  list-style: none;
+  font-family: "Labrada", serif;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 20px;
+  color: var(--blue);
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: var(--blue);
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: var(--blue);
+}
+ul.breadcrumb li a:hover {
+  color: var(--orange);
+  text-decoration: underline;
+}
+
+h1 {
+  color: var(--blue);
+  font-family: "Labrada";
+  font-size: 55px;
+}
+
+h2 {
+  color: var(--blue);
+  font-family: "Labrada";
+  font-size: 40px;
+}
+
+h3 {
+  color: var(--blue);
+  font-family: "Labrada";
+  font-size: 30px;
+}
+
+a h3 { 
+  color: var(--blue);
+}
+
+a:hover h3 { 
+  color: var(--orange);
+}
+
+h4 {
+  color: var(--blue);
+  font-family: "Labrada";
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+  color: var(--blue);
+  font-family: "Labrada";
+  }
+
+a:link {
+  color: var(--blue);
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+a:visited{
+  color: var(--blue);
+}
+
+a:visited:hover{
+  color: var(--orange);
+}
+
+.categorycontainer {
+  display: flex;
+  padding: 40px;
+}
+
+.categorycontainer > div {
+  width:33%;
+}
+
+.header {
+  padding-bottom: 40px;
+  }
+
+.form-col {
+  width: 70%;
+  vertical-align: top;
+}
+
+.submission-label {
+  font-size: 30px;
+  font-family: "Labrada";
+  width: 50%;
+  margin-top: 5px;
+  margin-right: 2%; 
+  color: var(--blue);
+}               
+
+
+.input-text {
+  background-color: transparent;
+  border: 2px solid;
+  margin: 0 0 30px;
+  font-family: "Labrada";
+  color: var(--blue);
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 0;
+  width: 40%;
+}
+
+.input-text:focus{
+  outline: 3px solid var(--blue);
+  color:var(--blue);
+}
+
+.input-text-area{
+  background-color: transparent;
+  border: 2px solid;
+  margin: 0 0 30px;
+  font-family: "Labrada";
+  color: var(--blue);
+  padding: 5px 10px;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 0;
+}
+
+.input-text-area:focus{
+  outline: 3px solid var(--blue);
+  color:var(--blue);
+}
+
+#submitNewsletter{
+   background-color:var(--blue);
+    color: white;
+    text-transform:uppercase;
+    padding: 10px;
+    width: 20%;
+    min-width: 150px;
+    font-family: "Labrada";
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid var(--blue);
+}
+
+#submitAdventure{
+   background-color:var(--blue);
+    color: white;
+    text-transform:uppercase;
+    padding: 10px;
+    width: 20%;
+    min-width: 150px;
+    font-family: "Labrada";
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid var(--blue);
+}
+
+#submitLollygagging{
+   background-color:var(--blue);
+    color: white;
+    text-transform:uppercase;
+    padding: 10px;
+    width: 20%;
+    min-width: 150px;
+    font-family: "Labrada";
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid var(--blue);
+}
+
+#submitSurprise{
+   background-color:var(--blue);
+    color: white;
+    text-transform:uppercase;
+    padding: 10px;
+    width: 20%;
+    min-width: 150px;
+    font-family: "Labrada";
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid var(--blue);
+}
+
+#submitNewsletter:hover, #submitNewsletter:focus, #submitNewsletter:active {
+    background-color: var(--orange);
+    color: white;
+    border: 2px solid var(--orange);
+}
+
+#submitAdventure:hover, #submitAdventure:focus, #submitAdventure:active {
+    background-color: var(--orange);
+    color: white;
+    border: 2px solid var(--orange);
+}
+
+#submitLollygagging:hover, #submitLollygagging:focus, #submitLollygagging:active {
+    background-color: var(--orange);
+    color: white;
+    border: 2px solid var(--orange);
+}
+
+#submitSurprise:hover, #submitSurprise:focus, #submitSurprise:active {
+    background-color: var(--orange);
+    color: white;
+    border: 2px solid var(--orange);
+}
+
+.button-style {
+    background-color:var(--blue);
+    color: white;
+    text-transform:uppercase;
+    padding: 10px;
+    width: 20%;
+    font-family: "Labrada";
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid var(--blue);
+    display: inline-block;
+}
+
+.button-style:hover {
+    background-color: var(--orange);
+    color: white;
+    border: 2px solid var(--orange);
+}
+
+a.button-style { 
+  color: white; 
+  text-decoration: none;
+}
+
+.container {
+   display: block;
+   font-family: "Labrada";
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: var(--blue);
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  outline: var(--blue) solid 2px;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #E2E0FF;
+  outline: var(--blue) solid 2px;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: var(--blue);
+  outline: var(--blue) solid 2px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.button-center {
+text-align: center;
+}
+
+@media (max-width: 830px) {
+  .categorycontainer {
+    flex-direction: column;
+    max-width: 100%;
+    gap: 10px;
+    align-items: center;
+  }
+}
