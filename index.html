@@ -26,46 +26,68 @@
 
     </div>
 
-    <div>
+<h2 style="padding-left: 2vw;"> Veľké sčítanie beťárstiev </h2>
+
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="608099fb-7033-4733-a4a2-bc20edf83444">
+
+   <div style="padding-left: 2vw; padding-bottom: 60px;" >
+
+        <div class="form-col">
+        <label class="submission-label" for="namePrispevok">Tvoje meno:</label>
+        <input class="input-text" type="text" name="name" id="namePrispevok" placeholder='nechaj prázdne pre anonyný príspevok' maxlength=100>
+        </div>
+      
+        <div class="form-col">
+        <label class="submission-label" for="titlePrispevok">Názov neplechy/ flákačky/ dobrodružstva/ beťárstva/ šibalstva:*</label>
+        <input class="input-text" type="text" name="title" id="titlePrispevok" placeholder='sem napíš názov' required maxlength=100>
+        </div>
+
+        <div class="form-col">
+        <label class="submission-label" for="subPrispevok">Návod na neplechu/ flákačku/ dobrodružstvo/ beťárstvo/ šibalstvo:*</label>
+        <br><br>
+        <textarea class="input-text-area" name="submission" id="subPrispevok" rows="10" placeholder='sem napíš návod' required></textarea>
+        </div>
+    </div>  
+
+<div hidden>
+  <div>
 <h2 style="padding-left: 2vw;"> Čo chceš s nami zdieľať? </h2>
       
-      <div class="categorycontainer">
-        <div>
+    <div class="categorycontainer">
+      <div>
       <a href="lollygagging.html">  
       <img src="zahalka.svg" alt="Kresba goblina s rukami za hlavou" width="200" height="200">
       <h3 style="text-align:center;"> Zaháľku &#10170;</h3>
       </a>
-       </div>
+      </div>
 
-        <div>
+      <div>
       <a href="adventure.html">  
       <img src="kompas.svg" alt="Kresba kompasu ukazujúceho na švandu a zábavu" width="200" height="200">
       <h3 style="text-align:center;"> Dobrodružstvo &#10170;</h3>
       </a>
-          </div>
+      </div>
 
-         <div>
-      
+      <div>
       <a href="surprise.html">
-          <img src="prekvapko.svg" alt="Kresba prekvapeného vreca, z ktorého vyskakujú otazníky a trblietky" width="200" height="200">
+      <img src="prekvapko.svg" alt="Kresba prekvapeného vreca, z ktorého vyskakujú otazníky a trblietky" width="200" height="200">
       <h3 style="text-align:center;"> Prekvap nás! &#10170;</h3>
       </a>
-          </div>
+      </div>
         
-        </div>
-
-      <br>
     </div>
 
- <div>
-  <h2 style="padding-left: 2vw;"> Chcem si predobjednať príručku! </h2>
-   <p style="padding-left: 2vw;"> Daj nám email a náš administratívny pracovník Emil Našuchorený ti pošle digitálnu verziu Šibalskej príručky Huncútskej husy (do každého vrecka) hneď, ako bude hotová
-    <i>(určené hlavne pre účastníctvo Veľkého sčítania beťárstiev).</i> </p>
+      <br>
+  </div>
+</div>
 
-<form action="https://api.web3forms.com/submit" method="POST" target="_self">
-  <input type="hidden" name="access_key" value="842c9239-0752-47e9-a466-1a3b28e0f6e9">
-      
-      <div style="padding-left: 2vw;" class="form-col">
+  <div>
+  <h2 style="padding-left: 2vw;"> Chcem príručku do mailu </h2>
+  <p style="padding-left: 2vw;"> Daj nám email a náš administratívny pracovník Emil Našuchorený ti pošle digitálnu verziu Šibalskej príručky Huncútskej husy (do každého vrecka) hneď, ako bude hotová
+  </p>
+
+        <div style="padding-left: 2vw;" class="form-col">
        
         <label class="submission-label" for="mailMail">Email:</label>
         <input class="input-text" type="email" name="meno" id="mailName" placeholder='tvoj email tuto' required maxlength=200>
@@ -89,7 +111,7 @@
       </div>
 
   </div>
-    
+</form>
 <footer style="padding:40px;">
   <p style="text-align:center"> Vytvorené Blejmínou Blelejovou, VB. pre Knižnicu Huncútska husa, © 2026
   </p>
